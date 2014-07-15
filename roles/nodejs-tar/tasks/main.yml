@@ -1,5 +1,8 @@
 ---
 
+- name:             remove deb package if installed
+  apt:              name=nodejs state=absent
+
 - name:             nodejs already installed?
   command:          test -e {{ nodejs_pkgdir }}/node-{{ nodejs_version }}
   register:         nodejs_exists
