@@ -1,4 +1,4 @@
-nodejs_version:     v0.10.28
-nodejs_sha256:      5f41f4a90861bddaea92addc5dfba5357de40962031c2281b1683277a0f75932
+nodejs_version:     v0.10.33
+nodejs_sha256:      159e5485d0fb5c913201baae49f68fd428a7e3b08262e9bf5003c1b399705ca8
 nodejs_pkgdir:      /opt/pkg
 nodejs_bindir:      /usr/local/bin
